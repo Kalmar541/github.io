@@ -11,9 +11,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <div style={{ textAlign: 'center', margin: '20px' }}>
-  <img src={AvatarImage} alt="Dmitry Chechilo" />
-</div>
+          <img src={AvatarImage} alt="Dmitry Chechilo" />
         </div>
         <div className="content">
           <div className="social_icons">
@@ -33,7 +31,6 @@ function Main() {
         </div>
       </div>
     </div>
-
   );
 }
 
