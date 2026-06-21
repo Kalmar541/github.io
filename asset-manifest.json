@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.361fc1df.css",
-    "main.js": "/static/js/main.fe9f9496.js",
+    "main.js": "/static/js/main.01d4244a.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/deliver-it-mini.jpg": "/static/media/deliver-it-mini.d9bc43f9e48c0168180e.jpg",
+    "static/media/jelly_Cats-mini.png": "/static/media/jelly_Cats-mini.73fa2762fed31374749b.png",
     "static/media/laundry-mini.jpg": "/static/media/laundry-mini.744726fa621051bebebc.jpg",
     "static/media/boo-mini.jpg": "/static/media/boo-mini.adfcb9fd8b26da4022ee.jpg",
     "static/media/avatar-s.jpg": "/static/media/avatar-s.261a8bcf0840c0670fe5.jpg",
     "index.html": "/index.html",
     "main.361fc1df.css.map": "/static/css/main.361fc1df.css.map",
-    "main.fe9f9496.js.map": "/static/js/main.fe9f9496.js.map",
+    "main.01d4244a.js.map": "/static/js/main.01d4244a.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.361fc1df.css",
-    "static/js/main.fe9f9496.js"
+    "static/js/main.01d4244a.js"
   ]
 }
