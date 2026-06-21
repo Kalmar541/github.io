@@ -3,11 +3,12 @@
     "",
     "\\build",
     "\\public",
+    "\\public\\images",
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\styles",
     "\\src\\components"
   ],
-  "SelectedNode": "\\src\\components\\Project.tsx",
+  "SelectedNode": "\\public\\images",
   "PreviewInSolutionExplorer": false
 }

@@ -53,7 +53,7 @@ function ProjectModal({ isOpen, onClose, project }: ProjectModalProps) {
       center
       styles={modalStyles}
     >
-      {/* Шапка (заголовок) — вне прокручиваемой области */}
+      {/* Header — without scroll area */}
       <div
         style={{
           backgroundColor: project.headerColor || '#5000ca',

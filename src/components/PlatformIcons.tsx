@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import { FaSteam, FaYandex, FaItchIo, FaGooglePlay, FaApple } from 'react-icons/fa';
+import { FaSteam, FaYandex, FaItchIo, FaGooglePlay, FaApple, FaChrome } from 'react-icons/fa';
 
 interface PlatformIconsProps {
   platforms?: { name: string; url: string }[];
@@ -9,8 +9,9 @@ const platformIcons: Record<string, React.ReactElement> = {
   steam: <FaSteam size={32} />,
   yandex: <FaYandex size={32} />,
   googleplay: <FaGooglePlay size={32} />,
-  apple: <FaApple size={24} />,
-  itch: <FaItchIo size={24} />,
+  apple: <FaApple size={32} />,
+  itch: <FaItchIo size={32} />,
+  web: <FaChrome size={32} />,
 };
 
 function PlatformIcons({ platforms }: PlatformIconsProps) {
