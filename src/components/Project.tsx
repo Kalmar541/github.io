@@ -7,6 +7,7 @@ import deliverItScreenshot from '../assets/images/deliverIt/deliver-it-mini.jpg'
 import funnyMatchScreenshot from '../assets/images/funny-match/funny-match-mini.png';
 import tetrocraftScreenshot from '../assets/images/tetrocraft/tetrocraft-mini.png';
 import mergeRacingScreenshot from '../assets/images/mergeRacing/mergeRacing-mini.png';
+import skyAceScreenshot from '../assets/images/skyAce/skyAce-mini.png';
 
 import ProjectModal from './ProjectModal';
 import '../assets/styles/Project.scss';
@@ -270,6 +271,40 @@ This was one of my early prototypes, built as a learning project to practice mer
       platforms: []
     },
 
+    /* ---=== Sky Ace ===--- */
+    skyAce: {
+      title: "Sky Ace",
+      videoId: "RiKrwZatLS0",
+      coverImage: skyAceScreenshot,
+      screenshots: [
+        "/images/skyAce/screenshot1.png",
+        "/images/skyAce/screenshot2.png",
+        "/images/skyAce/screenshot3.png",
+        "/images/skyAce/screenshot4.png",
+        "/images/skyAce/screenshot5.png",
+        "/images/skyAce/screenshot6.png",
+        "/images/skyAce/screenshot7.png"
+      ],
+      company: "Dmitry Chechilo",
+      techStack: "Unity, C#, 3D Physics, Low-Poly Graphics",
+      role: "Full-Cycle Developer (Gameplay, UI, Systems)",
+      features: [
+        "Arcade flight combat with enemy aircraft and ships",
+        "Resource management: fuel, ammo, and repair pickups",
+        "3 lives system for arcade-style challenge",
+        "10 levels of jet upgrades (speed, armor, rockets)",
+        "Dynamic day/night cycle with atmospheric visuals",
+        "Progressive difficulty based on survival time",
+        "Coin economy for purchasing upgrades"
+      ],
+      fullDescription: `Sky Ace is an arcade flight combat prototype where you pilot a military fighter jet over the Pacific Ocean. Destroy enemy aircraft and ships, manage your fuel, and collect falling bonuses to survive.
+
+The game features a dynamic difficulty system — the longer you survive, the more enemies appear. Earn coins to upgrade your jet across 10 levels, unlocking rockets, better speed, and improved handling.
+
+I developed this as one of my early Unity projects to practice 3D physics, resource management systems, and creating an engaging arcade loop with progressive difficulty.`,
+      headerColor: "rgb(30, 100, 180)",
+      platforms: []
+    },
 
   };
 
@@ -337,23 +372,20 @@ This was one of my early prototypes, built as a learning project to practice mer
           <p>Merge cats and run a cozy restaurant!</p>
         </div>
 
-        {/*---Deliver It---*/}
+        {/* Sky Ace */}
         <div className="project">
           <img
-            src={deliverItScreenshot}
-            alt="Deliver it!"
+            src={skyAceScreenshot}
+            alt="Sky Ace"
             width="100%"
             className="zoom"
-            onClick={() => openModal('deliverIt')}
+            onClick={() => openModal('skyAce')}
             style={{ cursor: 'pointer' }}
           />
-
-          <h2
-            onClick={() => openModal('deliverIt')}
-            style={{ cursor: 'pointer' }}>Deliver it!
+          <h2 onClick={() => openModal('skyAce')} style={{ cursor: 'pointer' }}>
+            Sky Ace
           </h2>
-
-          <p>Run a delivery point and complete orders!</p>
+          <p>Arcade flight combat over the Pacific!</p>
         </div>
 
         {/*----- FunnyMatch -----*/}
@@ -376,22 +408,6 @@ This was one of my early prototypes, built as a learning project to practice mer
           <p>Match-3 puzzle with colorful cartoon style!</p>
         </div>
 
-        {/* ----- Tetrocraft -----*/}
-        <div className="project">
-          <img
-            src={tetrocraftScreenshot}
-            alt="Tetrocraft"
-            width="100%"
-            className="zoom"
-            onClick={() => openModal('tetrocraft')}
-            style={{ cursor: 'pointer' }}
-          />
-          <h2 onClick={() => openModal('tetrocraft')} style={{ cursor: 'pointer' }}>
-            Tetrocraft
-          </h2>
-          <p>Block puzzle with Minecraft-inspired style!</p>
-        </div>
-
         {/* Merge Racing */}
         <div className="project">
           <img
@@ -407,6 +423,42 @@ This was one of my early prototypes, built as a learning project to practice mer
           </h2>
           <p>Restore a race track and merge cars to grow your empire!</p>
         </div>
+
+        {/* ----- Tetrocraft -----*/}
+        <div className="project">
+          <img
+            src={tetrocraftScreenshot}
+            alt="Tetrocraft"
+            width="100%"
+            className="zoom"
+            onClick={() => openModal('tetrocraft')}
+            style={{ cursor: 'pointer' }}
+          />
+          <h2 onClick={() => openModal('tetrocraft')} style={{ cursor: 'pointer' }}>
+            Tetrocraft
+          </h2>
+          <p>Block puzzle with Minecraft-inspired style!</p>
+        </div>
+      
+        {/*---Deliver It---*/}
+        <div className="project">
+          <img
+            src={deliverItScreenshot}
+            alt="Deliver it!"
+            width="100%"
+            className="zoom"
+            onClick={() => openModal('deliverIt')}
+            style={{ cursor: 'pointer' }}
+          />
+
+          <h2
+            onClick={() => openModal('deliverIt')}
+            style={{ cursor: 'pointer' }}>Deliver it!
+          </h2>
+
+          <p>Run a delivery point and complete orders!</p>
+        </div>
+
 
       </div>
       <ProjectModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} project={selectedProject} />
