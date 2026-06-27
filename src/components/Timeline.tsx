@@ -12,7 +12,7 @@ function Timeline() {
       <div className="items-container">
         <h1>Career History</h1>
         <VerticalTimeline>
-          {/* Опыт работы 1: Solvex Games */}
+          {/* Solvex Games */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Mar 2025 — Dec 2025"
@@ -22,11 +22,13 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Unity Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">Solvex Games</h4>
             <p>
-              Combat system with unique enemies and bosses, Spine 2D animations, dynamic location switching, save system.
+              Developed core combat system with 15 unique enemies and 3 boss fights. 
+              Integrated Spine 2D skeletal animations. Implemented dynamic location 
+              switching and a robust save system. Shipped <strong>Boo! The Mystery Story</strong> on Steam.
             </p>
           </VerticalTimelineElement>
 
-          {/* Опыт работы 2: Splash Games */}
+          {/* Splash Games */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Apr 2024 — Mar 2025"
@@ -36,7 +38,12 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Unity Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">Splash Games</h4>
             <p>
-              Economic systems, customer AI, employee hiring & automation, upgrades, Zenject (DI), DOTween animations.
+              Designed and implemented economic systems and customer AI.
+              Built employee hiring, automation, and upgrade systems.
+              Used Zenject for dependency injection and DOTween for smooth animations.
+              <br /><br />
+              <strong>Project:</strong> Laundry Simulator – a fully functional management simulation,
+              completed and ready for release on Steam.
             </p>
           </VerticalTimelineElement>
 
@@ -50,7 +57,9 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Indie Game Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">Self-employed</h4>
             <p>
-              Full cycle of game development for Yandex Games, prototyping, publishing.
+              Full-cycle development of WebGL games for Yandex Games. 
+              Created prototypes, implemented game mechanics, and managed the 
+              complete publishing process from concept to release.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

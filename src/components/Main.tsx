@@ -20,8 +20,8 @@ function Main() {
             <a href="mailto:kalmar541@yandex.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
           </div>
           <h1>Dmitry Chechilo</h1>
-          <p>Unity C# Developer | 2 Steam Games Shipped</p>
-          <p>Zenject · DOTween · Spine</p>
+          <p>Unity C# Developer | 2 Steam Games + Mobile & WebGL Projects</p>
+          <p>Unity · C# · Zenject · DOTween · Spine · WebGL · Mobile · 3D Physics · UniTask</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Kalmar541" target="_blank" rel="noreferrer"><GitHubIcon/></a>
