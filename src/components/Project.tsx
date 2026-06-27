@@ -6,6 +6,7 @@ import jellyCatsScreenshot from '../assets/images/jellyCats/jelly_Cats-mini.png'
 import deliverItScreenshot from '../assets/images/deliverIt/deliver-it-mini.jpg';
 import funnyMatchScreenshot from '../assets/images/funny-match/funny-match-mini.png';
 import tetrocraftScreenshot from '../assets/images/tetrocraft/tetrocraft-mini.png';
+import mergeRacingScreenshot from '../assets/images/mergeRacing/mergeRacing-mini.png';
 
 import ProjectModal from './ProjectModal';
 import '../assets/styles/Project.scss';
@@ -230,6 +231,44 @@ function Project() {
       platforms: []
     },
 
+    /* ---=== Merge Racing ===--- */
+    mergeRacing: {
+      title: "Merge Racing",
+      videoId: "hiWHKEiqFmw",
+      coverImage: mergeRacingScreenshot,
+      screenshots: [
+        "/images/mergeRacing/Screenshot1.png",
+        "/images/mergeRacing/Screenshot2.png",
+        "/images/mergeRacing/Screenshot3.png",
+        "/images/mergeRacing/Screenshot4.png",
+        "/images/mergeRacing/Screenshot5.png",
+        "/images/mergeRacing/Screenshot6.png",
+      ],
+      company: "Dmitry Chechilo",
+      techStack: "Unity, C#, Drag & Drop, Merge Mechanics",
+      role: "Full-Cycle Developer (Gameplay, UI, Systems)",
+      features: [
+        "Merge mechanics: combine identical cars to unlock faster vehicles",
+        "Idle racing system: cars generate income while racing on track",
+        "Track upgrades: clear debris, build grandstands, improve scenery",
+        "Car catalog: purchase advanced cars directly",
+        "Full upgrade loop: scrapyard → merge → race → track upgrade",
+        "Drag-and-drop car management"
+      ],
+      fullDescription: `Merge Racing is a prototype where you restore an abandoned race track. Merge cars, manage your track, and grow your racing empire.
+
+How it works:
+1. Scrapyard: Generate low-tier cars with a few clicks.
+2. Merge Zone: Drag and drop identical cars to merge them into faster, upgraded vehicles.
+3. Race Track: Place any car on the starting line to start racing. Each lap generates money.
+4. Track Upgrades: Spend your earnings to clear debris, remove trees, build grandstands, and improve the track for higher income.
+5. Car Catalog: Purchase advanced cars directly to skip the merge grind.
+
+This was one of my early prototypes, built as a learning project to practice merge mechanics, idle systems, and drag-and-drop UI in Unity.`,
+      steamUrl: null,
+      headerColor: "rgb(200, 50, 50)",
+      platforms: []
+    },
 
 
   };
@@ -351,6 +390,22 @@ function Project() {
             Tetrocraft
           </h2>
           <p>Block puzzle with Minecraft-inspired style!</p>
+        </div>
+
+        {/* Merge Racing */}
+        <div className="project">
+          <img
+            src={mergeRacingScreenshot}
+            alt="Merge Racing"
+            width="100%"
+            className="zoom"
+            onClick={() => openModal('mergeRacing')}
+            style={{ cursor: 'pointer' }}
+          />
+          <h2 onClick={() => openModal('mergeRacing')} style={{ cursor: 'pointer' }}>
+            Merge Racing
+          </h2>
+          <p>Restore a race track and merge cars to grow your empire!</p>
         </div>
 
       </div>
