@@ -1,10 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.361fc1df.css",
-    "main.js": "/static/js/main.f65ac3e6.js",
+    "main.js": "/static/js/main.147d7904.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
+    "static/media/tetrocraft-mini.png": "/static/media/tetrocraft-mini.1454f534e29f1ea34ecb.png",
+    "static/media/funny-match-mini.png": "/static/media/funny-match-mini.2d176b747734d31e6e65.png",
+    "static/media/skyAce-mini.png": "/static/media/skyAce-mini.021e98a69b182b1e652c.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mergeRacing-mini.png": "/static/media/mergeRacing-mini.6eb2cbed08803ff62bbb.png",
     "static/media/deliver-it-mini.jpg": "/static/media/deliver-it-mini.d9bc43f9e48c0168180e.jpg",
     "static/media/jelly_Cats-mini.png": "/static/media/jelly_Cats-mini.73fa2762fed31374749b.png",
     "static/media/laundry-mini.jpg": "/static/media/laundry-mini.744726fa621051bebebc.jpg",
@@ -12,11 +16,11 @@
     "static/media/avatar-s.jpg": "/static/media/avatar-s.261a8bcf0840c0670fe5.jpg",
     "index.html": "/index.html",
     "main.361fc1df.css.map": "/static/css/main.361fc1df.css.map",
-    "main.f65ac3e6.js.map": "/static/js/main.f65ac3e6.js.map",
+    "main.147d7904.js.map": "/static/js/main.147d7904.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.361fc1df.css",
-    "static/js/main.f65ac3e6.js"
+    "static/js/main.147d7904.js"
   ]
 }
